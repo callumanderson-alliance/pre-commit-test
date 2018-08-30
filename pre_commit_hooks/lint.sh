@@ -1,12 +1,13 @@
 #!/bin/bash -e
 set -o pipefail
 
-source "$(dirname "${BASH_SOURCE[0]}")/common.inc"
+source "$PWD/bin/common.inc"
 cd "$repo_dir"
 
 return_code=0
 
 [[ $(pwd) =~ template-django$ ]] && is_template_repo=true || is_template_repo=false
+
 
 function err() {
 	echo "ERROR: $1" >&2

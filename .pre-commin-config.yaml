@@ -1,6 +1,0 @@
--   id: lint 
-    name: Lint
-    description: Lint
-    entry: lint.sh
-    language: system
-
