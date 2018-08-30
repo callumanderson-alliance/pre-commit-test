@@ -3,4 +3,4 @@
   description: Lint
   entry: pre_commit_hooks/lint.sh
   language: script
-  types: [python]
+  types: [file]
